@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Sentichat App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script type="text/javascript" src="lib/sentimood/sentimood.js"></script>
+  </head>
+  <body>
+    <!-- MESSAGES -->
+    <div class="container">
+      <ul id="messages">
+        <i class="material-icons arrow">arrow_drop_up</i>
+        <li class="text-bubble"><p class="username"><strong>Welcome to Sentichat</strong></p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras efficitur diam a neque pretium feugiat. 
+          Sed eu rhoncus neque, ut consequat justo. Nam turpis velit, cursus ac nunc at, varius iaculis est.</li>
+      </ul>
+    </div>
+    <!-- SEND MESSAGE -->
+    <div class="message-container">
+      <form action="">
+          <textarea class="send-message" id="m" placeholder="Start typing..."></textarea>
+          <button class="send-button"><i class="fa fa-send-o" style="font-size: 1.3rem"></i></button>
+      </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="chat.js"></script>
+  </body>
+</html>
