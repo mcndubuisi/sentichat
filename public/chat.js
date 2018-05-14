@@ -47,7 +47,7 @@ $(function(){
             
             for(i=0; i<arr.length; i++){
                 total += arr[i];
-                average = total/arr.length;
+                average = Math.floor(total/arr.length);
             }
             switch(average) {
                 case -5:
