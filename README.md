@@ -1,3 +1,3 @@
 # sentichat
 
-![Sentichat Cover Photo](/public/assets/sentichat.png)
+![Sentichat Cover Photo](/public/img/sentichat.png)
