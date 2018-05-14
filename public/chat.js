@@ -54,14 +54,14 @@ $(function(){
                 case -4:
                 case -3:
                 case -2:
+                case -1:
                     $("body").css("background-image", "url('/img/negative.png')");
                     break;
-                case -1:
                 case 0:
                 case 1:
-                case 2:
                     $("body").css("background", "url('/img/neutral.png')");
                     break;
+                case 2:
                 case 3:
                 case 4:
                 case 5:
