@@ -1,9 +1,9 @@
 // Dependencies required for app
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
 
-var http = require('http').Server(app);
-var io = require('socket.io')(http);
+const http = require('http').Server(app);
+const io = require('socket.io')(http);
 
 // Use port 3000 unless there exists a preconfigured port
 app.set('port', process.env.PORT || 3000);
