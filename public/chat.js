@@ -36,7 +36,7 @@ $(function(){
             '<li class="text-bubble"><p class="username"><strong>' + username +'</strong></p>'+ msg +'</li>');
             setTimeout(function(){$('.send-button').css("background-color", "#404040")}, 200);
         }else{
-            $('.send-button').css("background-color", "#ff3232")
+            $('.send-button').css("background-color", "#ff3232");
             setTimeout(function(){$('.send-button').css("background-color", "#404040"); alert('Message empty!');}, 200);
         }
 
