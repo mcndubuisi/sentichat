@@ -34,6 +34,7 @@ $(function() {
         // Adds animation to the send button
         if (msg.length > 0) {
             $('.send-button').css("background-color", "#535353");
+<<<<<<< HEAD
             $('ul').append('<i class="material-icons arrow">arrow_drop_up</i>' +
                 '<li class="text-bubble"><p class="username"><strong>' + username + '</strong></p>' + msg + '</li>');
             setTimeout(function() { $('.send-button').css("background-color", "#404040"); }, 200);
@@ -43,6 +44,14 @@ $(function() {
                 $('.send-button').css("background-color", "#404040");
                 alert('Message empty!');
             }, 200);
+=======
+            $('ul').append('<i class="material-icons arrow">arrow_drop_up</i>'+
+            '<li class="text-bubble"><p class="username"><strong>' + username +'</strong></p>'+ msg +'</li>');
+            setTimeout(function(){$('.send-button').css("background-color", "#404040")}, 200);
+        }else{
+            $('.send-button').css("background-color", "#ff3232");
+            setTimeout(function(){$('.send-button').css("background-color", "#404040"); alert('Message empty!');}, 200);
+>>>>>>> 965fc8f862b00e25b68ae4f12ecd59279dcb8050
         }
 
         // Finds average sentiment score and changes background accordingly
