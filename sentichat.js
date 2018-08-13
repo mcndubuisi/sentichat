@@ -14,7 +14,7 @@ app.set('port', process.env.PORT || 3000);
 // Set up handlebars view engine
 
 var handlebars = require('express3-handlebars')
-    .create({ defaultLayout: 'main' });
+    .create({ defaultLayout: '' });
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
 
