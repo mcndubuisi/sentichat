@@ -36,7 +36,7 @@ $(function() {
             $('.send-button').css("background-color", "#535353");
 <<<<<<< HEAD
             $('ul').append('<i class="material-icons arrow">arrow_drop_up</i>' +
-                '<li class="text-bubble"><p class="username"><strong>' + username + '</strong></p>' + msg + '</li>');
+                '<li class="text-bubble"><p class="username"><strong> ${username}</strong></p>' + msg + '</li>');
             setTimeout(function() { $('.send-button').css("background-color", "#404040"); }, 200);
         } else {
             $('.send-button').css("background-color", "#ff3232");
@@ -46,7 +46,7 @@ $(function() {
             }, 200);
 =======
             $('ul').append('<i class="material-icons arrow">arrow_drop_up</i>'+
-            '<li class="text-bubble"><p class="username"><strong>' + username +'</strong></p>'+ msg +'</li>');
+            '<li class="text-bubble"><p class="username"><strong> ${username}</strong></p>'+ msg +'</li>');
             setTimeout(function(){$('.send-button').css("background-color", "#404040")}, 200);
         }else{
             $('.send-button').css("background-color", "#ff3232");
