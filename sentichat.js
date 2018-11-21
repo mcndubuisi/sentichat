@@ -6,14 +6,14 @@ const app = express();
 
 const http = require('http').Server(app);
 const io = require('socket.io')(http);
-var users = [];
+let users = [];
 
 // Use port 3000 unless there exists a preconfigured port
 app.set('port', process.env.PORT || 3000);
 
 // Set up handlebars view engine
 
-var handlebars = require('express3-handlebars')
+const handlebars = require('express3-handlebars')
     .create({ defaultLayout: '' });
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
@@ -23,7 +23,7 @@ app.use(express.static(__dirname + '/public'));
 
 // Route
 app.get('/', function(req, res) {
-    res.render('index');
+    res.render('index.handlebars');
 });
 
 // Emits event from the server
