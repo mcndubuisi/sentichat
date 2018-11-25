@@ -6,6 +6,6 @@ Sentichat is an instant messaging app. It uses AFINN-111 wordlist to perform sen
 
 How to run the app locally:
 
-* Run npm install to install all needed dependencies
-* Then start the server using node sentichat.js
+* Run `npm install` to install all needed dependencies
+* Then start the server using `node sentichat.js`
 * Navigate to your browser http://localhost:3000/ to view the app
